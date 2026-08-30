@@ -116,9 +116,14 @@ placing personal data or secrets in proposals.
 ## Development
 
 ```bash
+npm run security:public
 npm test
 npm run check
 ```
+
+The public-safety check scans every tracked file and the full Git history for
+high-confidence credential patterns and forbidden secret-bearing filenames. It
+reports rule names and locations without printing matched values.
 
 ## Roadmap
 
@@ -130,3 +135,6 @@ npm run check
 ## License
 
 MIT. See [LICENSE](LICENSE).
+
+If ReviewGate helps keep an AI action under human control, a star helps other
+builders find it.
