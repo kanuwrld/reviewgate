@@ -9,6 +9,8 @@ sanitized data and restrict filesystem access.
 
 ## Reporting a vulnerability
 
-Use GitHub private vulnerability reporting. Do not include live credentials,
-customer payloads, or an unpatched exploit in a public issue. Include affected
-versions, reproduction steps, impact, and a suggested mitigation when possible.
+Do not include live credentials, customer payloads, or an unpatched exploit in a
+public issue. Repository collaborators should create a private draft advisory
+under **Security → Advisories**. If this repository becomes public, enable GitHub
+private vulnerability reporting before launch. Include affected versions,
+reproduction steps, impact, and a suggested mitigation when possible.
