@@ -13,7 +13,7 @@ and the full Git history and hides any matched value from its output.
 ## Reporting a vulnerability
 
 Do not include live credentials, customer payloads, or an unpatched exploit in a
-public issue. Repository collaborators should create a private draft advisory
-under **Security → Advisories**. If this repository becomes public, enable GitHub
-private vulnerability reporting before launch. Include affected versions,
-reproduction steps, impact, and a suggested mitigation when possible.
+public issue. External reporters should use **Security → Report a vulnerability**;
+GitHub private vulnerability reporting is enabled. Repository collaborators may
+create a private draft advisory under **Security → Advisories**. Include affected
+versions, reproduction steps, impact, and a suggested mitigation when possible.
