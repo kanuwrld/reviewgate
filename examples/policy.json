@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "actions": {
+    "support.reply.draft": {
+      "risk": "medium",
+      "mode": "approval_required",
+      "allowedTargets": [
+        "ticket:*"
+      ],
+      "maxPayloadBytes": 16384
+    },
+    "crm.note.create": {
+      "risk": "low",
+      "mode": "auto_approve",
+      "allowedTargets": [
+        "lead:*",
+        "account:*"
+      ],
+      "maxPayloadBytes": 4096
+    },
+    "email.send": {
+      "risk": "high",
+      "mode": "approval_required",
+      "allowedTargets": [
+        "*@example.invalid"
+      ],
+      "maxPayloadBytes": 16384
+    },
+    "payment.refund": {
+      "risk": "high",
+      "mode": "block"
+    }
+  }
+}

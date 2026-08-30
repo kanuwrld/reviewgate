@@ -1,0 +1,18 @@
+name: Bug report
+description: Report a reproducible ReviewGate problem
+title: "bug: "
+labels: [bug]
+body:
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction
+      description: Remove credentials and customer data from policies, payloads, and ledgers.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: ReviewGate and Node.js versions
+    validations:
+      required: true
